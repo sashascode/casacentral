@@ -1,0 +1,16 @@
+.footer{
+    background-color:#77444f;
+    border-top: 10px solid cadetblue;
+    height: 6rem;
+    padding: 3rem 0;
+    flex-wrap: nowrap;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p{
+    text-align: center; 
+    font-size: 15px;
+    color: antiquewhite;
+}

@@ -1,0 +1,36 @@
+.my-header{
+    position: fixed;
+    height: 120px;
+    z-index: 666;
+    width: 100%;   
+}
+
+.my-navbar{
+    background-color:rgba(56, 56, 56, 0.7);
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    list-style-type: none;
+    line-height: 50px; 
+}
+
+ul{
+    margin-left: auto;
+    flex: 1;
+}
+
+.my-link{
+    color:#fff;
+    line-height:30px;
+    font-size:20px;
+    font-weight:bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.my-link :hover{
+    color:#A25768;
+    text-decoration: underline;
+}
