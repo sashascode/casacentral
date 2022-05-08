@@ -8,7 +8,7 @@ function Modelos(){
     return(
         <>
         <div className='container-title'>
-            <p className='title'>MODELOS</p>
+            <p className='title modelos'> { marcaId ? marcaId : 'MODELOS'} </p>
         </div>    
         </>
     );
