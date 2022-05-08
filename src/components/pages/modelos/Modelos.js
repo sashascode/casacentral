@@ -1,8 +1,10 @@
-import React from 'react';
+import {useParams} from 'react-router-dom';
 import './Modelos.css';
 
 
 function Modelos(){
+    const {marcaId} = useParams();
+
     return(
         <>
         <div className='container-title'>
