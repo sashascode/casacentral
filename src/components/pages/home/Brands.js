@@ -18,33 +18,37 @@ const brandsArray2 = [
 
 const Brands = () => {
   return (
-    <div className='container'>
-        <div className='row row-cols-5'>
-            {
-                brandsArray1.map(brand => {
-                    return(
-                        <div className='col'>
-                            <Link to={`/marcas/${brand.name}`}>
-                                <img src={brand.url} alt={brand.name} className='brand-logo'/>
-                            </Link>
-                        </div>
-                    )
-                })
-            }
-        </div>
+    <div className='container-title'>
+        <p className='title' style={{fontSize: '20px'}}>Nuestras marcas</p>
 
-        <div className='row row-cols-5'>
-            {
-                brandsArray2.map(brand => {
-                    return(
-                        <div className='col'>
-                            <Link to={`/marcas/${brand.name}`}>
-                                <img src={brand.url} alt={brand.name} className='brand-logo'/>
-                            </Link>
-                        </div>
-                    )
-                })
-            }
+        <div className='container'>
+            <div className='row row-cols-5'>
+                {
+                    brandsArray1.map(brand => {
+                        return(
+                            <div className='col'>
+                                <Link to={`/marcas/${brand.name}`}>
+                                    <img src={brand.url} alt={brand.name} className='brand-logo'/>
+                                </Link>
+                            </div>
+                        )
+                    })
+                }
+            </div>
+
+            <div className='row row-cols-5'>
+                {
+                    brandsArray2.map(brand => {
+                        return(
+                            <div className='col'>
+                                <Link to={`/marcas/${brand.name}`}>
+                                    <img src={brand.url} alt={brand.name} className='brand-logo'/>
+                                </Link>
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     </div>
   )
