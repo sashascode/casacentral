@@ -56,3 +56,9 @@
           transform: scale(1.05);
          cursor: pointer;
     }
+
+.modal-content{
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}    
