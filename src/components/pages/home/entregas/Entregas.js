@@ -9,6 +9,7 @@ import foto6 from '../../../../images/entregas/entrega6.jpeg'
 import foto7 from '../../../../images/entregas/entrega7.jpeg'
 import foto8 from '../../../../images/entregas/entrega8.jpeg'
 import foto9 from '../../../../images/entregas/entrega9.jpeg'
+import foto10 from '../../../../images/entregas/entrega10.jpeg'
 
 
 function Entregas(){
@@ -26,7 +27,7 @@ function Entregas(){
                         <div className='grid-item' style={{backgroundImage: `url(${foto7}`}} data-bs-toggle="modal" data-bs-target="#modalImage7"></div>
                         <div className='grid-item' style={{backgroundImage: `url(${foto8}`}} data-bs-toggle="modal" data-bs-target="#modalImage8"></div>
                         <div className='grid-item' style={{backgroundImage: `url(${foto9}`}} data-bs-toggle="modal" data-bs-target="#modalImage9"></div>
-
+                        <div className='grid-item' style={{backgroundImage: `url(${foto10}`}} data-bs-toggle="modal" data-bs-target="#modalImage10"></div>
                     </div>    
             </section>
 
@@ -142,6 +143,19 @@ function Entregas(){
                         </div>
                         <div className='modal-body'>
                             <img src={foto9} width="100%" height="100%" alt="entrega a cliente"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div tabIndex="-1" aria-labelledby='modalImage10' aria-hidden="true" className='modal fade' id="modalImage10">
+                <div className='modal-dialog modal-lg modal-dialog-centered'>
+                    <div className='modal-content'>
+                        <div className='modal-header'>
+                            <button type='button' className='btn-close' data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div className='modal-body'>
+                            <img src={foto10} width="100%" height="100%" alt="entrega a cliente"></img>
                         </div>
                     </div>
                 </div>
