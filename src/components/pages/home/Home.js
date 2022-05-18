@@ -1,5 +1,5 @@
 import React from 'react';
-import Brands from './BrandContainer';
+import Brands from '../../Marcas/BrandContainer';
 import './Home.css';
 
 

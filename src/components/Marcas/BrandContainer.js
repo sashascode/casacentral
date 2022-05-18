@@ -1,14 +1,14 @@
-import './Home.css';
+import './Brand.css';
 import { Brand } from './Brand';
-import SvgCitroen from '../../../iconComponents/SvgCitroen';
-import SvgFiat from '../../../iconComponents/SvgFiat';
-import SvgFord from '../../../iconComponents/SvgFord';
-import SvgJeep from '../../../iconComponents/SvgJeep';
-import SvgNissan from '../../../iconComponents/SvgNissan';
-import SvgPeugeot from '../../../iconComponents/SvgPeugeot';
-import SvgRenault from '../../../iconComponents/SvgRenault';
-import SvgToyota from '../../../iconComponents/SvgToyota';
-import SvgVolkswagen from '../../../iconComponents/SvgVolkswagen';
+import SvgCitroen from '../../iconComponents/SvgCitroen';
+import SvgFiat from '../../iconComponents/SvgFiat';
+import SvgFord from '../../iconComponents/SvgFord';
+import SvgJeep from '../../iconComponents/SvgJeep';
+import SvgNissan from '../../iconComponents/SvgNissan';
+import SvgPeugeot from '../../iconComponents/SvgPeugeot';
+import SvgRenault from '../../iconComponents/SvgRenault';
+import SvgToyota from '../../iconComponents/SvgToyota';
+import SvgVolkswagen from '../../iconComponents/SvgVolkswagen';
 
 const brandsArray1 = [
     {id: 1, name: 'fiat', url: SvgFiat},
