@@ -6,10 +6,8 @@ import './Home.css';
 function Home(){
     return(
         <>
-            <div className='container-title'>
-                <p className='title' style={{fontSize: '20px'}}>Nuestras Marcas</p>
-                <Brands/>  
-            </div>  
+            <Brands/>  
+             
         </>
     );
 }
