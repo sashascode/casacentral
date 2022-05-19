@@ -1,0 +1,51 @@
+.my-section-principal{
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size:cover;
+    border-bottom: 10px solid #000;
+    z-index: auto; 
+    background-attachment:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:flex-start;
+    text-align: center;
+    height: 45em;
+    padding: 6rem 0
+}
+
+.my-div-principal{
+    flex: 1;
+    margin: 120px 10px 100px 0; 
+}
+
+.my-title-principal{
+    color: #fff;
+    flex: 1;
+    font-size: 60px;   
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+}
+
+.my-h2{
+    color: #fff;
+    flex: 1;
+    font-size: 25px;   
+    font-weight: bold;
+    margin: 30px 0 30px 0;
+}
+
+.my-button{
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 20px; 
+    padding: 20px 45px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black; 
+}
