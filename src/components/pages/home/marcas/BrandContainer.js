@@ -29,33 +29,33 @@ const Brands = () => {
 
   return (
     <section className='my-section'>
-        <p className='my-title'>Nuestras Marcas</p>
-        <div className='container'>
-            <div className='row row-cols-5'>
-                {
-                    brandsArray1.map(brand => {
-                        return(
-                            <div className='col' key={brand.id}>
-                                <Brand brand={brand}/>
-                            </div>
-                        );
-                    })
-                }
-            </div>
+            <h1 className='my-title'>Nuestras Marcas</h1>
+            <div className='container marcas'>
+                <div className='row row-cols-5'>
+                    {
+                        brandsArray1.map(brand => {
+                            return(
+                                <div className='col' key={brand.id}>
+                                    <Brand brand={brand}/>
+                                </div>
+                            );
+                        })
+                    }
+                </div>
 
-            <div className='row row-cols-5'>
-                {
-                    brandsArray2.map(brand => {
-                        return(
-                            <div className='col' key={brand.id}>
-                                <Brand brand={brand}/>
-                            </div>
-                        );
-                    })
-                }
+                <div className='row row-cols-5'>
+                    {
+                        brandsArray2.map(brand => {
+                            return(
+                                <div className='col' key={brand.id}>
+                                    <Brand brand={brand}/>
+                                </div>
+                            );
+                        })
+                    }
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
   );
 }
 

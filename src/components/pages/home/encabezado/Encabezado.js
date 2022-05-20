@@ -12,7 +12,7 @@ function Introduccion(){
                 <h1 className='my-title-principal'>El mejor servicio<br/> lo vas a encontrar aquí</h1>
                 <h2 className='my-h2'>Nuevos | Usados | Planes de ahorro</h2>
                 <div className="div-botones">
-                    <Link to="./modelos" className="btn btn-light btn-lg active botones my-button" role="button" aria-pressed="true">Marcas</Link>
+                    <Link to="./modelos" className="btn btn-light btn-lg active botones my-button" role="button" aria-pressed="true">Modelos</Link>
                 </div>
 
             </div>
