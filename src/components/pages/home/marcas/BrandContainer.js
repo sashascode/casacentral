@@ -28,8 +28,8 @@ const brandsArray2 = [
 const Brands = () => {
 
   return (
-      <>
-        <p className='title' style={{fontSize: '20px'}}>Nuestras Marcas</p>
+    <section className='my-section'>
+        <p className='my-title'>Nuestras Marcas</p>
         <div className='container'>
             <div className='row row-cols-5'>
                 {
@@ -55,7 +55,7 @@ const Brands = () => {
                 }
             </div>
         </div>
-    </>
+    </section>
   );
 }
 

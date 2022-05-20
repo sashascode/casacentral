@@ -3,14 +3,16 @@ import Entregas from './entregas/Entregas';
 import Encabezado from './encabezado/Encabezado';
 import './Home.css';
 import Testimonios from './testimonios/Testimonios';
+import Marcas from './marcas/BrandContainer'
 
 
 function Home(){
     return(
         <>
-        <Encabezado/>
-        <Entregas/>
-        <Testimonios/>
+            <Encabezado/>
+            <Marcas/>
+            <Entregas/>
+            <Testimonios/>
         </>
     );
 }
