@@ -22,6 +22,7 @@ function Menu(){
                     <Route exact path="/contacto" element={<Contacto/>}/>
 
                     <Route exact path="/" element={<Home/>}/>
+                    <Route exact path="/marcas/:marcaId" element={<Modelos/>}/>
                     <Route path="*" element={<Navigate to="/"/>}/>
                 </Routes>
            </Router>

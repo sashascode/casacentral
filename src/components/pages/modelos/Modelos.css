@@ -1,8 +1,12 @@
-.title{
+.title {
     color: black;
     padding-top: 200px;
     font-size: 50px;
     font-weight: bold;
+}
+
+.modelos {
+    text-transform: uppercase;
 }
 
 .container-title{
