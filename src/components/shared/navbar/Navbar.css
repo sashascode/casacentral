@@ -7,10 +7,10 @@
 
 .my-navbar{
     background-color:rgba(56, 56, 56, 0.7);
-    border-bottom: 1px solid white;
     font-weight: bold;
     list-style-type: none;
     line-height: 50px; 
+    height: 80px;
 }
 
 ul{
