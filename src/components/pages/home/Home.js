@@ -4,8 +4,7 @@ import Encabezado from './encabezado/Encabezado';
 import './Home.css';
 import Testimonios from './testimonios/Testimonios';
 import Marcas from './marcas/BrandContainer'
-import SvgWpp from '../../../iconComponents/SvgWpp';
-
+import IconWpp from '../../../iconComponents/IconWpp/IconWpp'
 
 function Home(){
     return(
@@ -14,7 +13,7 @@ function Home(){
             <Marcas/>
             <Entregas/>
             <Testimonios/>
-            <SvgWpp/>
+            <IconWpp/>
         </>
     );
 }
