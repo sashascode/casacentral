@@ -4,7 +4,6 @@ import Encabezado from './encabezado/Encabezado';
 import './Home.css';
 import Testimonios from './testimonios/Testimonios';
 import Marcas from './marcas/BrandContainer'
-import IconWpp from '../../../iconComponents/IconWpp/IconWpp'
 
 function Home(){
     return(
@@ -13,7 +12,6 @@ function Home(){
             <Marcas/>
             <Entregas/>
             <Testimonios/>
-            <IconWpp/>
         </>
     );
 }
