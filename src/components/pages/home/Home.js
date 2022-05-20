@@ -1,18 +1,18 @@
 import React from 'react';
+import './Home.css';
+import Brands from './marcas/BrandContainer';
 import Entregas from './entregas/Entregas';
 import Encabezado from './encabezado/Encabezado';
-import './Home.css';
 import Testimonios from './testimonios/Testimonios';
-import Marcas from './marcas/BrandContainer'
 
 
 function Home(){
     return(
         <>
-            <Encabezado/>
-            <Marcas/>
-            <Entregas/>
-            <Testimonios/>
+        <Encabezado/>
+        <Brands/>  
+        <Entregas/>
+        <Testimonios/>
         </>
     );
 }
