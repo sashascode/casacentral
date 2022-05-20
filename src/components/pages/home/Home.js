@@ -4,6 +4,7 @@ import Encabezado from './encabezado/Encabezado';
 import './Home.css';
 import Testimonios from './testimonios/Testimonios';
 import Marcas from './marcas/BrandContainer'
+import SvgWpp from '../../../iconComponents/SvgWpp';
 
 
 function Home(){
@@ -13,6 +14,7 @@ function Home(){
             <Marcas/>
             <Entregas/>
             <Testimonios/>
+            <SvgWpp/>
         </>
     );
 }
