@@ -1,0 +1,75 @@
+.container-valores{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin:180px 50px;
+    gap:50px; 
+}
+
+.div-valores{
+    padding: 10px;
+    max-width: 400px;
+    
+}
+
+.h1-valores{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.text-valores{
+    color: black;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn-vision{
+    width: 55px;
+    height: 55px;
+    background: #0d49f0;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.caja-icono{
+    margin: auto;
+    width: 50%;
+    padding: 10px 60px;
+}
+
+.btn-mision{
+    width: 55px;
+    height: 55px;
+    bottom: 35px;
+    background: #f00de5;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-calidad{
+    width: 55px;
+    height: 55px;
+    bottom: 35px;
+    background: #f0600d;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text-resaltado{
+    font-weight: bold;
+}
+
