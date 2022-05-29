@@ -10,7 +10,7 @@ const cards = [
     id: 1,
     title: "Maxi Rivera",
     image: image1,
-    text:"Sin palabras, los productos y servicios de Casacentraldeplanesdeahorroparafinesdeterminados son increíbles, llegue por recomendación de un amigo hace tiempo atrás y me sorprendió la calidad, atención y asesoramiento ¡los super recomiendo!"  
+    text:"Sin palabras, los productos y servicios son increíbles, llegue por recomendación de un amigo hace tiempo atrás y me sorprendió la calidad, atención y asesoramiento ¡los super recomiendo!"  
   },
   {
     id: 2,

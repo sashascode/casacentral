@@ -24,3 +24,7 @@
   .card-img-top:hover {
     transform: scale(1.1);
   }
+
+  .tarjeta{
+    background-color: rgb(131, 125, 125)
+  }

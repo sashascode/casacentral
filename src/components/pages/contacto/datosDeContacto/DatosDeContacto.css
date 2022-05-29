@@ -1,0 +1,30 @@
+.btn-grey{
+    width: 36px;
+    height: 36px;
+    background: #adbbe4;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 19px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.description-datos{
+    color: #839de9;
+    font-size: 1.3rem;
+    padding-left: 1rem !important;
+    align-items:center;
+    justify-content:center;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+
+.titulo-de-contacto{
+    justify-content:left;
+    padding-left: 2rem;
+}
+
+.div-contacto{
+    margin-bottom: 230px;
+}
