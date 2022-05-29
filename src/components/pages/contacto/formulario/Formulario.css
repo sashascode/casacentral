@@ -36,7 +36,7 @@ h2{
     flex-direction: column;
     display: flex;
     align-items:center;
-    justify-content:center;
+    justify-content:flex-start;
 }
 
 .elemento{
@@ -124,3 +124,4 @@ input[type="reset"]{
     font-weight: bold;    
     border-radius: 50px;
 }
+
