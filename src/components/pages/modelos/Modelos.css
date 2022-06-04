@@ -12,3 +12,24 @@
 .container-title{
     height: 1000px;
 }
+
+.marca-icon {
+    width: 450px;
+    height: 450px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-auto-rows: minmax(300px,auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 300ms;
+}
