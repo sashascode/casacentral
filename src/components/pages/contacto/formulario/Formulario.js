@@ -1,7 +1,36 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './Formulario.css';
+import emailjs from '@emailjs/browser';
+import {Toaster, toast} from 'react-hot-toast';
 
 function Formulario(){
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        const api_key = 'XKw0QrIt8x3hxljfq'
+        const serviceId='default_service';
+        const templateId='template_uf52d0p';
+
+        const myPromise = emailjs.sendForm(serviceId, templateId, form.current, api_key)
+        toast.promise(myPromise,
+             {
+               loading: 'Enviando Mensaje...',
+               success: <b>Mensaje Enviado!</b>,
+               error: <b>EDemoras en el servidor, por favor intente más tarde.</b>,
+             },
+             {
+                 style:{
+                     minWidth:'250px'
+                 },
+                 success:{
+                     duration:5000,
+                     icon:'🔥'
+                 }
+             }
+           );
+      };
+      
+
     return(
             <div className='col'>
                 <div className="flex-titulos">
@@ -10,22 +39,22 @@ function Formulario(){
                 </div>
 
                 <div className="div-form">
-                    <form action="https://formsubmit.co/brunoredzio@hotmail.com" id="formulario" name="form" method="POST">
+                    <form ref={form} id="form" name="form" onSubmit={sendEmail}>
                         <div className="elemento">
-                            <input type="text" id="nombre" name="nombre" required="True" placeholder="Nombre"/>
+                            <input type="text" id="name" name="name" required placeholder="Nombre"/>
                         </div>
                         
                         <div className="elemento">
-                            <input type="email" name="email" placeholder="E-mail" required="True"/>
+                            <input type="email" name="email" placeholder="E-mail" required/>
                         </div>  
 
                         <div className="pregunta">   
-                            <textarea name="comentarios" placeholder="Pregunta" required="1"></textarea>
+                            <textarea name="message" id="message"  placeholder="Mensaje" required></textarea>
                         </div>   
                         
                         <div className="promociones">
-                            <label for="newsletter" className='label-promo'>¿Desea recibir promociones y/o descuentos?</label>
-                            <input  type="checkbox" name="newsletter" value="1"/>
+                            <label  className='label-promo'>¿Desea recibir promociones y/o descuentos?</label>
+                            <input  type="checkbox" name="promotions" id="promotions"/>
                         </div>    
                         <div className="elemento">
                             <input type="submit" value="Enviar"/>
@@ -33,6 +62,7 @@ function Formulario(){
                         </div>    
                     </form>  
                 </div>  
+                <Toaster position="bottom-center" reverseOrder={true}/>
             </div>
     );
 }

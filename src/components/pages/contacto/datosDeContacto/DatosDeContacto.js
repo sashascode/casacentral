@@ -9,9 +9,6 @@ import {ImFacebook2} from 'react-icons/im';
 import {ImInstagram} from 'react-icons/im';
 
 
-
-
-
 function DatosDeContacto(){
     return(
             <div className='col div-contacto'>
