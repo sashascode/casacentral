@@ -7,8 +7,8 @@ export const Brand = ({brand}) => {
   return (
     <Link to={`/marcas/${brand.name}`} className={'animated fadeIn'} onMouseEnter={() => setActive(true)} onMouseLeave={() => setActive(false)}>
         <brand.url
-          fill={active ? 'red' : 'black'}
-          className='brand-logo' 
+          fill={active ? 'blue' : 'dimgrey'}
+          className='brand-logo'
         /> 
     </Link>
   );

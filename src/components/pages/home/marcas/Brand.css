@@ -4,18 +4,19 @@
     text-align: center;
 }
 
+.my-title {
+    text-align: left;
+}
+
 .brand-logo {
-    height: 100px;
-    width: 100px;
+    
     cursor: pointer;
 }
 
 img .brand-logo {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
 }
 
 .marcas{
-    margin-top: 100px;
+    margin-top: 50px;
 }
