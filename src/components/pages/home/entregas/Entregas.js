@@ -16,7 +16,7 @@ function Entregas(){
     return(
         <>
             <section className='my-section'>
-                <h1 className='my-title'>Nuestras Entregas</h1>
+                <h1 className='my-title' style={{fontSize: '40px'}}>Nuestras entregas</h1>
                     <div className='grid-container'>
                         <div className='grid-item' style={{backgroundImage: `url(${foto1}`}} data-bs-toggle="modal" data-bs-target="#modalImage1"></div>
                         <div className='grid-item' style={{backgroundImage: `url(${foto2}`}} data-bs-toggle="modal" data-bs-target="#modalImage2"></div>
