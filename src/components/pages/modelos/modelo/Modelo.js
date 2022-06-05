@@ -18,19 +18,19 @@ const Modelo = ({modelo}) => {
             return <iframe width="560" height="600" src="https://www.youtube.com/embed/hd7XJ3wD5gI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             break;
           case 'sandero':
-            return <iframe width="560" height="315" src="https://www.youtube.com/embed/81sqVS7N1B8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/81sqVS7N1B8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             break;
           case 'strada':
-            return <iframe width="560" height="315" src="https://www.youtube.com/embed/42MKKgx8uW4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/42MKKgx8uW4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             break;
           case 'taos':
-            return <iframe width="560" height="315" src="https://www.youtube.com/embed/XNNPLzYSpDk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/XNNPLzYSpDk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             break;
           case 'toro':
-            return <iframe width="560" height="315" src="https://www.youtube.com/embed/OruQWQnEk_M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/OruQWQnEk_M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             break;
           case 'uno':
-            return <iframe width="560" height="315" src="https://www.youtube.com/embed/GKSA_84rb8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/GKSA_84rb8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
             break;
             default:
             return ' ';
@@ -66,13 +66,12 @@ const Modelo = ({modelo}) => {
                         </a>
                     </div>
                 </div>
-
             </div>
-
+            
             <div className="row">
                 <div className="col-6 col-md-2">
                     <div className="card">
-                        <img src={modelo.thumbnail[1].img} className="card-img-top" alt="..."/>
+                        <img src={modelo.thumbnail[1].img} alt="..."/>
                         <div className="card-body">
                             <h5 className="card-text" style={{fontWeight: 'bold'}}>{modelo.thumbnail[1].desc}</h5>
                         </div>
@@ -81,7 +80,7 @@ const Modelo = ({modelo}) => {
 
                 <div className="col-6 col-md-2">
                     <div className="card">
-                        <img src={modelo.thumbnail[2].img} className="card-img-top" alt="..."/>
+                        <img src={modelo.thumbnail[2].img}  alt="..."/>
                         <div className="card-body">
                             <h5 className="card-text" style={{fontWeight: 'bold'}}>{modelo.thumbnail[2].desc}</h5>
                         </div>
@@ -90,7 +89,7 @@ const Modelo = ({modelo}) => {
 
                 <div className="col-6 col-md-2">
                     <div className="card">
-                        <img src={modelo.thumbnail[3].img} className="card-img-top" alt="..."/>
+                        <img src={modelo.thumbnail[3].img} alt="..."/>
                         <div className="card-body">
                             <h5 className="card-text" style={{fontWeight: 'bold'}}>{modelo.thumbnail[3].desc}</h5>
                         </div>
