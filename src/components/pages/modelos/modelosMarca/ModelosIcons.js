@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import '../Modelos.css';
 
-const ModelosIcons = ({icons}) => {
-  if(icons !== ''){
+const ModelosIcons = ({icons, marca}) => {
+  if(icons.icon !== ''){
     return (
       icons.map((modelo, index) => {
         return(
           <div class='grid-item'>
-            <img src={modelo} alt={modelo} key={index} className='marca-icon'/>
+            <Link to={`/modelos/${marca}/${modelo.name}`}> <img src={modelo.icon} alt={modelo.name} key={index} className='marca-icon'/> </Link>
           </div>  
         )  
       })

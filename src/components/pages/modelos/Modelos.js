@@ -19,9 +19,9 @@ import Taos from '../../../images/volkswagen/taos.png'
 import Sandero from '../../../images/renault/sandero.png'
 
 
-const fiat = [Argo, Cronos, Ducato, Fiorino, Mobi, Strada, Toro, Uno];
-const volkswagen = [Taos];
-const renault = [Sandero];
+const fiat = [{ name: 'argo', icon: Argo}, {name: 'cronos', icon: Cronos}, {name: 'ducato', icon: Ducato}, {name: 'fiorino', icon: Fiorino}, {name: 'mobi', icon: Mobi}, {name: 'strada', icon: Strada}, {name: 'toro', icon: Toro}, {name: 'uno', icon: Uno}];
+const volkswagen = [{name: 'taos', icon: Taos}];
+const renault = [{name: 'sandero', icon: Sandero}];
 
 function Modelos(){
     const {marcaId} = useParams();
@@ -32,7 +32,7 @@ function Modelos(){
                 <Encabezado title="Modelos FIAT" fondo={fondo}/>
                 <div class="container">
                     <div class="grid-container">
-                        <ModelosIcons icons={fiat}/>
+                        <ModelosIcons icons={fiat} marca={marcaId}/>
                     </div>
                 </div>
             </>
@@ -45,7 +45,7 @@ function Modelos(){
                 <Encabezado title="Modelos VOLKSWAGEN" fondo={fondo}/>
                 <div class="container">
                     <div class="grid-container">
-                        <ModelosIcons icons={volkswagen}/>
+                        <ModelosIcons marca={marcaId} icons={volkswagen}/>
                     </div>
                 </div>
             </>
@@ -58,7 +58,7 @@ function Modelos(){
                 <Encabezado title="Modelos RENAULT" fondo={fondo}/>
                 <div class="container">
                     <div class="grid-container">
-                        <ModelosIcons icons={renault}/>
+                        <ModelosIcons marca={marcaId} icons={renault}/>
                     </div>
                 </div>
             </>
