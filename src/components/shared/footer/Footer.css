@@ -1,6 +1,6 @@
 .footer{
-    background-color:#77444f;
-    border-top: 10px solid cadetblue;
+    background-color:#080708;
+    border-top: 10px solid #3B60E4;
     height: 6rem;
     padding: 3rem 0;
     flex-wrap: nowrap;
@@ -12,5 +12,5 @@
 p{
     text-align: center; 
     font-size: 15px;
-    color: antiquewhite;
+    color: #fff;
 }

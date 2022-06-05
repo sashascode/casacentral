@@ -2,14 +2,12 @@
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover;
-    border-bottom: 10px solid #000;
     z-index: auto; 
     background-attachment:fixed;
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content:flex-start;
-    
     height: 40em;
     padding: 6rem 0;
     
@@ -22,6 +20,7 @@
     margin: 5px 0 0 0;
     text-align: center;
     color: #fff;
+    text-shadow: 1px 1px 2px black;
 }
 
 .encabezado-div{
