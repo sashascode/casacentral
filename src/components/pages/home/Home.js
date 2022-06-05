@@ -4,6 +4,7 @@ import Brands from './marcas/BrandContainer';
 import Entregas from './entregas/Entregas';
 import Encabezado from './encabezado/Encabezado';
 import Testimonios from './testimonios/Testimonios';
+import Pagos from './pagos/Pagos';
 
 function Home(){
     return(
@@ -12,6 +13,7 @@ function Home(){
         <Brands/>  
         <Entregas/>
         <Testimonios/>
+        <Pagos/>
         </>
     );
 }

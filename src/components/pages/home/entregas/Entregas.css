@@ -22,7 +22,7 @@
 
 .grid-item{
     border-radius: 4px;
-    background-color: #03afff;
+    /* background-color: #03afff;  */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
