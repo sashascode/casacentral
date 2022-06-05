@@ -7,6 +7,7 @@ import Contacto from "../../pages/contacto/Contacto";
 
 import Navbar from "./Navbar";
 import Modelos from "../../pages/modelos/Modelos";
+import ModeloContainer from '../../pages/modelos/modelo/ModeloContainer';
 
 
 
@@ -23,6 +24,7 @@ function Menu(){
 
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/marcas/:marcaId" element={<Modelos/>}/>
+                    <Route exact path="/modelos/:marcaId/:modeloId" element={<ModeloContainer/>}/>
                     <Route path="*" element={<Navigate to="/"/>}/>
                 </Routes>
            </Router>
