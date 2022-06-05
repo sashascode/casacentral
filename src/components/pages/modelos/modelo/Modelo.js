@@ -47,7 +47,7 @@ const Modelo = ({modelo}) => {
             <div className="row">
                 <div className="col">
                     <div className="card">
-                        <img src={modelo.thumbnail[0].img} className="card-img-top" alt="..."/>
+                        <img  loading="lazy" src={modelo.thumbnail[0].img} className="card-img-top" alt="..."/>
                     </div>
                 </div>
 
@@ -71,7 +71,7 @@ const Modelo = ({modelo}) => {
             <div className="row">
                 <div className="col-6 col-md-2">
                     <div className="card">
-                        <img src={modelo.thumbnail[1].img} alt="..."/>
+                        <img loading="lazy" src={modelo.thumbnail[1].img} alt="..."/>
                         <div className="card-body">
                             <h5 className="card-text" style={{fontWeight: 'bold'}}>{modelo.thumbnail[1].desc}</h5>
                         </div>
@@ -80,7 +80,7 @@ const Modelo = ({modelo}) => {
 
                 <div className="col-6 col-md-2">
                     <div className="card">
-                        <img src={modelo.thumbnail[2].img}  alt="..."/>
+                        <img loading="lazy" src={modelo.thumbnail[2].img}  alt="..."/>
                         <div className="card-body">
                             <h5 className="card-text" style={{fontWeight: 'bold'}}>{modelo.thumbnail[2].desc}</h5>
                         </div>
@@ -89,7 +89,7 @@ const Modelo = ({modelo}) => {
 
                 <div className="col-6 col-md-2">
                     <div className="card">
-                        <img src={modelo.thumbnail[3].img} alt="..."/>
+                        <img loading="lazy" src={modelo.thumbnail[3].img} alt="..."/>
                         <div className="card-body">
                             <h5 className="card-text" style={{fontWeight: 'bold'}}>{modelo.thumbnail[3].desc}</h5>
                         </div>
