@@ -6,7 +6,7 @@ const ModelosIcons = ({icons, marca}) => {
     return (
       icons.map((modelo, index) => {
         return(
-          <div class='grid-item'>
+          <div key={modelo.id} className='grid-item'>
             <Link to={`/modelos/${marca}/${modelo.name}`}> <img loading="lazy" src={modelo.icon} alt={modelo.name} key={index} className='marca-icon'/> </Link>
           </div>  
         )  

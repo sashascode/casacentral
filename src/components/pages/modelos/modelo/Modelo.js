@@ -9,28 +9,28 @@ const Modelo = ({modelo}) => {
     const renderSwitch = (param) => {
         switch(param) {
           case 'argo':
-            return <iframe width="560" height="600" src="https://www.youtube.com/embed/B17EvtdQM5M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>;
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/B17EvtdQM5M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>;
             break;
           case 'cronos':
-            return <iframe width="560" height="600" src="https://www.youtube.com/embed/8r4G2WfuWrE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>;
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/8r4G2WfuWrE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>;
             break;
           case 'mobi':
-            return <iframe width="560" height="600" src="https://www.youtube.com/embed/hd7XJ3wD5gI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/hd7XJ3wD5gI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             break;
           case 'sandero':
-            return <iframe width="560" height="600" src="https://www.youtube.com/embed/81sqVS7N1B8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/81sqVS7N1B8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             break;
           case 'strada':
-            return <iframe width="560" height="600" src="https://www.youtube.com/embed/42MKKgx8uW4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/42MKKgx8uW4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             break;
           case 'taos':
-            return <iframe width="560" height="600" src="https://www.youtube.com/embed/XNNPLzYSpDk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/XNNPLzYSpDk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             break;
           case 'toro':
-            return <iframe width="560" height="600" src="https://www.youtube.com/embed/OruQWQnEk_M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/OruQWQnEk_M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             break;
           case 'uno':
-            return <iframe width="560" height="600" src="https://www.youtube.com/embed/GKSA_84rb8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
+            return <iframe width="560" height="600" src="https://www.youtube.com/embed/GKSA_84rb8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             break;
             default:
             return ' ';

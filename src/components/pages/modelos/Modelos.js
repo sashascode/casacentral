@@ -19,9 +19,9 @@ import Taos from '../../../images/volkswagen/taos.png'
 import Sandero from '../../../images/renault/sandero.png'
 
 
-const fiat = [{ name: 'argo', icon: Argo}, {name: 'cronos', icon: Cronos}, {name: 'ducato', icon: Ducato}, {name: 'fiorino', icon: Fiorino}, {name: 'mobi', icon: Mobi}, {name: 'strada', icon: Strada}, {name: 'toro', icon: Toro}, {name: 'uno', icon: Uno}];
-const volkswagen = [{name: 'taos', icon: Taos}];
-const renault = [{name: 'sandero', icon: Sandero}];
+const fiat = [{ name: 'argo', icon: Argo, id: 81}, {name: 'cronos', icon: Cronos, id: 82}, {name: 'ducato', icon: Ducato, id: 83}, {name: 'fiorino', icon: Fiorino, id: 84}, {name: 'mobi', icon: Mobi, id: 85}, {name: 'strada', icon: Strada, id: 86}, {name: 'toro', icon: Toro, id: 87}, {name: 'uno', icon: Uno, id: 88}];
+const volkswagen = [{name: 'taos', icon: Taos, id: 89}];
+const renault = [{name: 'sandero', icon: Sandero, id: 90}];
 
 function Modelos(){
     const {marcaId} = useParams();
