@@ -6,7 +6,7 @@ function Testimonios(){
     return(
         <>
             <section className='my-section'>
-                <h1 className='my-title'>Nuestros Clientes</h1>
+                <h1 className='my-title' style={{fontSize: '40px'}}>Nuestros Clientes</h1>
                 <Cards/>
             </section>
         </>

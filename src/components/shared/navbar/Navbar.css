@@ -31,7 +31,7 @@ ul{
     margin-left: 40px;
 }
 
-.my-link :hover{
-    color:#A25768;
+.my-link:hover{
+    color:#3138ff;
     text-decoration: underline;
 }
