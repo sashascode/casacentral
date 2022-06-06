@@ -33,3 +33,25 @@
     background-repeat: no-repeat;
     transition: all 300ms;
 }
+
+ul{
+    margin-left: auto;
+    margin-right: 50px;
+    flex: 1;
+}
+
+.nav-marca {
+    color:#fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.nav-marca:hover {
+    background-color: #0c1c54;
+}
+
+.nav-marca-active {
+    background-color: #0c1c54;
+}

@@ -3,6 +3,7 @@ import Encabezado from '../../shared/encabezado/Encabezado';
 import fondo from '../../../images/modelosfinal.jpg';
 import './Modelos.css';
 import Brands from '../home/marcas/BrandContainer';
+import ModelosNav from './ModelosNav';
 import ModelosIcons from './modelosMarca/ModelosIcons';
 //Imagenes FIAT
 import Argo from '../../../images/fiat/argo.png'
@@ -19,9 +20,11 @@ import Taos from '../../../images/volkswagen/taos.png'
 import Sandero from '../../../images/renault/sandero.png'
 
 
-const fiat = [{ name: 'argo', icon: Argo, id: 81}, {name: 'cronos', icon: Cronos, id: 82}, {name: 'ducato', icon: Ducato, id: 83}, {name: 'fiorino', icon: Fiorino, id: 84}, {name: 'mobi', icon: Mobi, id: 85}, {name: 'strada', icon: Strada, id: 86}, {name: 'toro', icon: Toro, id: 87}, {name: 'uno', icon: Uno, id: 88}];
-const volkswagen = [{name: 'taos', icon: Taos, id: 89}];
-const renault = [{name: 'sandero', icon: Sandero, id: 90}];
+
+const fiat = [{ name: 'argo', icon: Argo, id: 81, marca: 'fiat'}, {name: 'cronos', icon: Cronos, id: 82, marca: 'fiat'}, {name: 'ducato', icon: Ducato, id: 83, marca: 'fiat'}, {name: 'fiorino', icon: Fiorino, id: 84, marca: 'fiat'}, {name: 'mobi', icon: Mobi, id: 85, marca: 'fiat'}, {name: 'strada', icon: Strada, id: 86, marca: 'fiat'}, {name: 'toro', icon: Toro, id: 87, marca: 'fiat'}, {name: 'uno', icon: Uno, id: 88, marca: 'fiat'}];
+const volkswagen = [{name: 'taos', icon: Taos, id: 89, marca: 'volkswagen'}];
+const renault = [{name: 'sandero', icon: Sandero, id: 90, marca: 'renault'}];
+const all = fiat.concat(volkswagen, renault);
 
 function Modelos(){
     const {marcaId} = useParams();
@@ -30,9 +33,10 @@ function Modelos(){
         return(
             <>
                 <Encabezado title="Modelos FIAT" fondo={fondo}/>
+                <h1 className='display-6' style={{color: 'black', marginTop: '40px'}}>Selecciona un modelo para conocerlo mejor.</h1>
                 <div class="container">
                     <div class="grid-container">
-                        <ModelosIcons icons={fiat} marca={marcaId}/>
+                        <ModelosIcons icons={fiat}/>
                     </div>
                 </div>
             </>
@@ -43,9 +47,10 @@ function Modelos(){
         return(
             <>
                 <Encabezado title="Modelos VOLKSWAGEN" fondo={fondo}/>
+                <h1 className='display-6' style={{color: 'black', marginTop: '40px'}}>Selecciona un modelo para conocerlo mejor.</h1>
                 <div class="container">
                     <div class="grid-container">
-                        <ModelosIcons marca={marcaId} icons={volkswagen}/>
+                        <ModelosIcons icons={volkswagen}/>
                     </div>
                 </div>
             </>
@@ -56,9 +61,10 @@ function Modelos(){
         return(
             <>
                 <Encabezado title="Modelos RENAULT" fondo={fondo}/>
+                <h1 className='display-6' style={{color: 'black', marginTop: '40px'}}>Selecciona un modelo para conocerlo mejor.</h1>
                 <div class="container">
                     <div class="grid-container">
-                        <ModelosIcons marca={marcaId} icons={renault}/>
+                        <ModelosIcons icons={renault}/>
                     </div>
                 </div>
             </>
@@ -67,8 +73,13 @@ function Modelos(){
 
     return(
         <>
-        <Encabezado title="Modelos" fondo={fondo}/>
-        <Brands/>  
+            <Encabezado title="Modelos" fondo={fondo}/> 
+            <h1 className='display-6' style={{color: 'black', marginTop: '40px'}}>Selecciona un modelo para conocerlo mejor.</h1>
+            <div class="container">
+                <div class="grid-container">
+                    <ModelosIcons icons={all}/>
+                </div>
+            </div>
         </>
     );
 }
