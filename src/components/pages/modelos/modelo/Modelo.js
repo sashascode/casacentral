@@ -45,7 +45,8 @@ const Modelo = ({modelo}) => {
         <div className="container">
 
             <div className="row">
-                <div className="col">
+                <div class="card-group">
+                <div className="col" style={{marginBottom: '40px', marginRight: '20px'}}>
                     <div className="card">
                         <img  loading="lazy" src={modelo.thumbnail[0].img} className="card-img-top" alt="..."/>
                     </div>
@@ -95,6 +96,7 @@ const Modelo = ({modelo}) => {
                         </div>
                     </div>
                 </div> 
+                </div>
             </div>
 
             <div className="row">

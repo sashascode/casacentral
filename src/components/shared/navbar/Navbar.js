@@ -23,16 +23,16 @@ function Navbar(){
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="nav justify-content-end">
                                 <li className='nav-item'>
-                                    <NavLink to="/" className='my-link'>Inicio</NavLink>
+                                    <NavLink to="/" className={({isActive}) => isActive ? "my-link bold" : "my-link"}>Inicio</NavLink>
                                 </li>
                                 <li className='nav-item'>
-                                    <NavLink to="/modelos" className='my-link'>Modelos</NavLink>
+                                    <NavLink to="/modelos" className={({isActive}) => isActive ? "my-link bold" : "my-link"}>Modelos</NavLink>
                                 </li>
                                 <li className='nav-item'>
-                                    <NavLink to="/nosotros" className='my-link'>¿Quiénes somos?</NavLink>
+                                    <NavLink to="/nosotros" className={({isActive}) => isActive ? "my-link bold" : "my-link"}>¿Quiénes somos?</NavLink>
                                 </li>
                                 <li className='nav-item'>
-                                    <NavLink to="/contacto" className='my-link'>Contacto</NavLink>
+                                    <NavLink to="/contacto" className={({isActive}) => isActive ? "my-link bold" : "my-link"}>Contacto</NavLink>
                                 </li>
                         </ul>
                     </div>

@@ -6,7 +6,7 @@
 }
 
 .my-navbar{
-    background-color:rgba(56, 56, 56, 0.7);
+    background-color:#0c1c54;
     font-weight: bold;
     list-style-type: none;
     line-height: 50px; 
@@ -24,14 +24,14 @@ ul{
     line-height:30px;
     font-size: 28px;
     font-weight: 500;
-    -webkit-transition:all 500ms ease;
-    -o-transition:all 500ms ease;
-    transition:all 500ms ease;
     text-decoration: none;
     margin-left: 40px;
 }
 
 .my-link:hover{
-    color:#3138ff;
-    text-decoration: underline;
+    font-weight: bold;
+    color: #fff;
+}
+.bold {
+    font-weight: bold;
 }
