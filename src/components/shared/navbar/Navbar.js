@@ -1,5 +1,6 @@
 import { React } from 'react';
 import { Link, NavLink } from "react-router-dom";
+import { BiSearch } from "react-icons/bi"
 
 import logo from './../../../images/Logo/bco sin fondo.png';
 
