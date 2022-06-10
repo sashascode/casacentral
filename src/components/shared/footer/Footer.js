@@ -1,7 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import Mp from '../../../images/medios-de-pago-suma(2) (1).png'
-
 
 function Footer(){
     return(
