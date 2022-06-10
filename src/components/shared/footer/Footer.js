@@ -6,8 +6,7 @@ import Mp from '../../../images/medios-de-pago-suma(2) (1).png'
 function Footer(){
     return(
       <>
-        <footer className="footer d-flex flex-row justify-content-around"> 
-          <img src={Mp} alt='medios de pago'/>
+        <footer className="footer"> 
           <p>Copyright 2022 Casa Central - Argentina. Todos los derechos reservados</p>
         </footer>
       </>  
