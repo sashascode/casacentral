@@ -30,7 +30,11 @@ const volkswagen = [{name: 'taos', icon: Taos, id: 89, marca: 'volkswagen'}];
 const renault = [{name: 'sandero', icon: Sandero, id: 90, marca: 'renault'}];
 const jeep = [{name: 'renegade', icon: Renegade, id: 91, marca: 'jeep'}, {name: 'compass', icon: Compass, id: 93, marca: 'jeep'}];
 const citroen = [{name: 'c3', icon: C3, id: 99, marca: 'citroen'}, {name: 'c4-cactus', icon: C4, id: 98, marca: 'citroen'}];
-const all = fiat.concat(volkswagen, renault, jeep, citroen);
+const nissan = [];
+const peugeot = [];
+const ford = [];
+const toyota = [];
+const all = fiat.concat(volkswagen, renault, jeep, citroen, nissan, peugeot, ford, toyota);
 
 function Modelos(){
     const {marcaId} = useParams();
@@ -104,6 +108,63 @@ function Modelos(){
             </>
         )
     }
+
+    if(marcaId === 'nissan'){
+        return(
+            <>
+                <Encabezado title="Modelos NISSAN" fondo={fondo}/>
+                <h1 className='display-6' style={{color: 'black', marginTop: '40px'}}>Selecciona un modelo para conocerlo mejor.</h1>
+                <div class="container">
+                    <div class="grid-container">
+                        <ModelosIcons icons={nissan}/>
+                    </div>
+                </div>
+            </>
+        )
+    }
+
+    if(marcaId === 'peugeot'){
+        return(
+            <>
+                <Encabezado title="Modelos PEUGEOT" fondo={fondo}/>
+                <h1 className='display-6' style={{color: 'black', marginTop: '40px'}}>Selecciona un modelo para conocerlo mejor.</h1>
+                <div class="container">
+                    <div class="grid-container">
+                        <ModelosIcons icons={peugeot}/>
+                    </div>
+                </div>
+            </>
+        )
+    }
+
+    if(marcaId === 'ford'){
+        return(
+            <>
+                <Encabezado title="Modelos FORD" fondo={fondo}/>
+                <h1 className='display-6' style={{color: 'black', marginTop: '40px'}}>Selecciona un modelo para conocerlo mejor.</h1>
+                <div class="container">
+                    <div class="grid-container">
+                        <ModelosIcons icons={ford}/>
+                    </div>
+                </div>
+            </>
+        )
+    }
+
+    if(marcaId === 'toyota'){
+        return(
+            <>
+                <Encabezado title="Modelos TOYOTA" fondo={fondo}/>
+                <h1 className='display-6' style={{color: 'black', marginTop: '40px'}}>Selecciona un modelo para conocerlo mejor.</h1>
+                <div class="container">
+                    <div class="grid-container">
+                        <ModelosIcons icons={toyota}/>
+                    </div>
+                </div>
+            </>
+        )
+    }
+
 
     return(
         <>
