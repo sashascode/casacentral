@@ -1,5 +1,8 @@
 import {useParams} from 'react-router-dom';
 import Modelo from './Modelo';
+
+//********************** MARCA FIAT ********************************** */
+
 //imports argo
 import argo_img1 from '../../../../images/fiat/argoimg1.jpg'
 import argo_img2 from '../../../../images/fiat/central-multimidia.avif'
@@ -56,13 +59,6 @@ import uno_img3 from '../../../../images/fiat/uno3.png'
 import uno_img4 from '../../../../images/fiat/uno4.png'
 import unoHeader from '../../../../images/fiat/unobanner.jpg'
 import unoFT from './fichastecnicas/ficha-tecnica-fiat-uno-way-2018pdf.pdf'
-//imports sandero
-import sandero_img1 from '../../../../images/fiat/sandero1.webp'
-import sandero_img2 from '../../../../images/fiat/sandero2.webp'
-import sandero_img3 from '../../../../images/fiat/sandero3.webp'
-import sandero_img4 from '../../../../images/fiat/sandero4.webp'
-import sanderoHeader from '../../../../images/fiat/sanderobanner.jpg'
-import sanderoFT from './fichastecnicas/22bf9cb5b8.pdf'
 //imports taos
 import taos_img1 from '../../../../images/fiat/taos1.jpg'
 import taos_img2 from '../../../../images/fiat/taos2.webp'
@@ -70,6 +66,61 @@ import taos_img3 from '../../../../images/fiat/taos3.jpg'
 import taos_img4 from '../../../../images/fiat/taos4.jpg'
 import taosHeader from '../../../../images/fiat/taosbanner.jpg'
 import taosFT from './fichastecnicas/ficha-tecnica-vw-taospdf.pdf'
+
+//********************** MARCA RENAULT ********************************** */
+
+//imports sandero
+import sandero_img1 from '../../../../images/fiat/sandero1.webp'
+import sandero_img2 from '../../../../images/fiat/sandero2.webp'
+import sandero_img3 from '../../../../images/fiat/sandero3.webp'
+import sandero_img4 from '../../../../images/fiat/sandero4.webp'
+import sanderoHeader from '../../../../images/fiat/sanderobanner.jpg'
+import sanderoFT from './fichastecnicas/22bf9cb5b8.pdf'
+//imports stepway
+import stepway_img1 from '../../../../images/renault/stepway/stepway1.webp'
+import stepway_img2 from '../../../../images/renault/stepway/stepway2.webp'
+import stepway_img3 from '../../../../images/renault/stepway/stepway3.webp'
+import stepway_img4 from '../../../../images/renault/stepway/stepway4.webp'
+import stepwayHeader from '../../../../images/renault/stepway/stepway_header.webp'
+import stepwayFT from '../../../../images/renault/stepway/stepway.pdf'
+//imports logan
+import logan_img1 from '../../../../images/renault/logan/logan1.webp'
+import logan_img2 from '../../../../images/renault/logan/logan2.webp'
+import logan_img3 from '../../../../images/renault/logan/logan3.webp'
+import logan_img4 from '../../../../images/renault/logan/logan4.webp'
+import loganHeader from '../../../../images/renault/logan/logan_header.webp'
+import loganFT from '../../../../images/renault/logan/logan.pdf'
+//imports kangoo
+import kangoo_img1 from '../../../../images/renault/kangoo/kangoo1.webp'
+import kangoo_img2 from '../../../../images/renault/kangoo/kangoo2.webp'
+import kangoo_img3 from '../../../../images/renault/kangoo/kangoo3.webp'
+import kangoo_img4 from '../../../../images/renault/kangoo/kangoo4.webp'
+import kangooHeader from '../../../../images/renault/kangoo/kangoo_header.webp'
+import kangooFT from '../../../../images/renault/kangoo/kangoo.pdf'
+//imports captur
+import captur_img1 from '../../../../images/renault/captur/captur1.webp'
+import captur_img2 from '../../../../images/renault/captur/captur2.webp'
+import captur_img3 from '../../../../images/renault/captur/captur3.webp'
+import captur_img4 from '../../../../images/renault/captur/captur4.webp'
+import capturHeader from '../../../../images/renault/captur/captur_header.webp'
+import capturFT from '../../../../images/renault/captur/captur.pdf'
+//imports koleos
+import koleos_img1 from '../../../../images/renault/koleos/koleos1.webp'
+import koleos_img2 from '../../../../images/renault/koleos/koleos2.webp'
+import koleos_img3 from '../../../../images/renault/koleos/koleos3.webp'
+import koleos_img4 from '../../../../images/renault/koleos/koleos4.webp'
+import koleosHeader from '../../../../images/renault/koleos/koleos_header.webp'
+import koleosFT from '../../../../images/renault/koleos/koleos.pdf'
+//imports duster
+import duster_img1 from '../../../../images/renault/duster/duster1.webp'
+import duster_img2 from '../../../../images/renault/duster/duster2.webp'
+import duster_img3 from '../../../../images/renault/duster/duster3.webp'
+import duster_img4 from '../../../../images/renault/duster/duster4.webp'
+import dusterHeader from '../../../../images/renault/duster/duster_header.webp'
+import dusterFT from '../../../../images/renault/duster/duster.pdf'
+
+//********************** MARCA XXX ********************************** */
+
 //renegade
 import renegadeFT from './fichastecnicas/FICHA-RENEGADE.pdf'
 //compass
@@ -95,6 +146,91 @@ const modelos = [
   {id: 'compass', title: "El estilo de tu libertad. #JeepCompass", title2: 'JEEP COMPASS', description: "El nuevo Compass es aún más elegante y está diseñado para causar una gran impresión. Estrena renovados diseños de paragolpes y parrilla delantera, el badge T270 y llantas exteriores. La gran novedad son los nuevos faros delanteros y traseros con tecnología LED presentes en todas las versiones, que hacen que el nuevo Compass se destaque por fuera de lo común. ", thumbnail: [{img: "https://1.bp.blogspot.com/-XjZFdpTDHCk/YVTrYm7MwiI/AAAAAAAAnLM/AzWNL-QqONw_6gzGmX8kQ-GdPojubDd4gCLcBGAsYHQ/w1200-h630-p-k-no-nu/Jeep-Compass-2022.jpg", desc: ''}, {img: "https://www.jeep.com.ar/content/dam/cross-regional/apac/jeep/en_in/allnewjeepcompass7thjan/new-compass-price-reveal-23Jan/overview/3-10.jpg.img.1000.jpg", desc: 'CONFORT Y ESTILO'}, {img: "https://www.jeep.com.ar/content/dam/cross-regional/latam/jeep/es_ar/2022/compass/descripcion-general/modelizer/sport-t270/2-new.jpg.img.500.jpg", desc: 'SISTEMA MULTIMEDIA UCONNECT DE 8,4"'}, {img: "https://www.jeep.com.ar/content/dam/cross-regional/latam/jeep/es_ar/2022/compass/descripcion-general/modelizer/sport-t270/1.jpg.img.500.jpg", desc: 'CAJA AUTOMATICA DE 6 VELOCIDADES'}], header: "https://www.jeep.com.ar/content/dam/cross-regional/latam/jeep/es_ar/2022/compass/descripcion-general/carrusel/1.jpg.img.1440.jpg", ficha: [CompassFT, "ficha_tec_compass"],},
   {id: 'c3', title: "Conquistando las calles con estilo y personalidad. #CitroenC3", title2: 'CITROEN C3', description: "El nuevo C3 unifica las características del hatchback con las de un SUV. Imponente con uno de los mayores despejes del suelo del segmento. Proporcionando bienestar a bordo, una posición de manejo inigualable y una excelente experiencia de conducción. El nuevo C3 te brinda lo mejor de los dos mundos. ", thumbnail: [{img: "https://s1.cdn.autoevolution.com/images/models/CITROEN_C3-Aircross-2021_main.jpg", desc: ''}, {img: "https://media.citroen.com.ar/image/80/4/audioyconectividad_1.357804.70.jpg?vers=1", desc: 'SISTEMA MULTIMEDIA DE 7"'}, {img: "https://media.citroen.com.ar/image/38/7/747x322-citroen-c3-gran-capacidad-1.30387.70.jpg", desc: 'GRAN CAPACIDAD, MODULARIDAD Y FÁCIL ACCESO'}, {img: "https://media.citroen.com.ar/image/80/5/audioyconectividad_2.357805.70.jpg?vers=1", desc: 'MIRRORSCREEN TAMBIEN MANEJABLE DESDE LOS MANDOS DEL VOLANTE'}], header: "https://www.sbwakefield.co.uk/media/images/51697992/50800515head-image.jpg", ficha: [c3FT, "ficha_tec_c3"],},
   {id: 'c4-cactus', title: "Bienvenido a la nueva generación SUV. #CitroenC4Cactus", title2: 'CITROEN C4 CACTUS', description: "El Nuevo CITROËN C4 CACTUS es una alternativa al segmento SUV que sienta las bases de un nuevo concepto de automóvil, ofreciendo más diseño, más confort y más tecnología.", thumbnail: [{img: "https://media.citroen.com.ar/image/12/2/diseno-provocador.350122.png?vers=1", desc: ''}, {img: "https://media.citroen.com.ar/image/90/5/espacio-interno.294905.70.png", desc: 'HABITABILIDAD Y VERSATILIDAD'}, {img: "https://media.citroen.com.ar/image/11/5/usp_techo-flotante-v2.350115.70.jpg?vers=1", desc: 'BARRAS DE TECHO FLOTANTES'}, {img: "https://media.citroen.com.ar/image/90/4/universo-interno.294904.70.png", desc: 'UNIVERSO INTERNO EXCLUSIVO Y TECNOLÓGICO'}], header: "https://tormo.com.ar/wp-content/uploads/2021/10/Citroe%CC%88n-C4-Cactus-X-SERIES-1-Tormo.jpeg", ficha: [c4FT, "ficha_tec_argo"],},
+    {id: 'stepway', 
+    title: "Sea cual sea el camino que elijas, estás a la altura", 
+    title2: 'RENAULT STEPWAY', 
+    description: "Su gran despeje del suelo y sus nuevos faros C-Shape le otorgan una actitud intrépida que junto a las luces LED traseras, trazan una línea que resalta el movimiento. Un auto diseñado a la altura de lo que te propongas.", 
+    thumbnail: [
+      {img: stepway_img1, desc: ''}, 
+      {img: stepway_img2, desc: 'Seguridad Pasiva'}, 
+      {img: stepway_img3, desc: 'Nueva caja de cambios CVT X-Tronic'}, 
+      {img: stepway_img4, desc: 'ESP Y HSA'}
+    ], 
+    header: stepwayHeader, 
+    ficha: [stepwayFT, "ficha_tec_stepway"],
+    },
+
+    {id: 'logan', 
+    title: "Sentite cómodo con tu momento", 
+    title2: 'RENAULT LOGAN', 
+    description: "El diseño renovado, el gran espacio interior junto con un baúl suficientemente grande para todo lo que querés llevar, son algunas de las características que hacen al Renault LOGAN, el vehículo que te merecés.", 
+    thumbnail: [
+      {img: logan_img1, desc: ''}, 
+      {img: logan_img2, desc: 'Panel de instrumentos optimizado'}, 
+      {img: logan_img3, desc: 'Mantenete conectado'}, 
+      {img: logan_img4, desc: 'Disfrutá de un viaje placentero'}
+    ], 
+    header: loganHeader, 
+    ficha: [loganFT, "ficha_tec_logan"],
+    },
+
+    {id: 'kangoo', 
+    title: "Recargado de proyectos", 
+    title2: 'RENAULT KANGOO', 
+    description: "Nuevo Renault KANGOO, pensado para viajar acompañado y compartir todo tipo de aventuras. En familia o con amigos, al campo o a la playa, el Kangoo está diseñado para que cada travesía sea única, no sólo en fines de semana o vacaciones. Con amplio espacio, también es un vehículo ideal para moverse cómodamente por la ciudad. Para ir al trabajo, llevar los chicos al colegio, hacer las compras en el supermercado o para disfrutar de salidas divertidas. Todos serán bienvenidos, todos viajarán cómodos en el nuevo Renault KANGOO.", 
+    thumbnail: [
+      {img: kangoo_img1, desc: ''}, 
+      {img: kangoo_img2, desc: 'Multimedia, Cámara y sensores de estacionamiento'}, 
+      {img: kangoo_img3, desc: 'Limitador y control de velocidad crucero'}, 
+      {img: kangoo_img4, desc: 'Seguridad activa'}
+    ], 
+    header: kangooHeader, 
+    ficha: [kangooFT, "ficha_tec_kangoo"],
+    },
+
+    {id: 'captur', 
+    title: "qué bueno verme ahí", 
+    title2: 'RENAULT CAPTUR', 
+    description: "Inspirado en el concept car del mismo nombre, Renault CAPTUR representa un nuevo lenguaje en términos de diseño: moderno y sofisticado.", 
+    thumbnail: [
+      {img: captur_img1, desc: ''}, 
+      {img: captur_img2, desc: 'Múltiples espacios'}, 
+      {img: captur_img3, desc: 'Cornering Lights'}, 
+      {img: captur_img4, desc: 'Seguridad activa'}
+    ], 
+    header: capturHeader, 
+    ficha: [capturFT, "ficha_tec_kangoo"],
+    },
+
+    {id: 'koleos', 
+    title: "conquistalo todo", 
+    title2: 'NUEVA RENAULT KOLEOS', 
+    description: "Un imponente estilo y una refinada elegancia se combinan para ampliar tus horizontes. La nueva Renault KOLEOS es una SUV que inspira respeto. Es amplia, robusta, con grandes llantas y gran distancia entre ejes. Sin importar la ruta o aventura que quieras emprender con la Renault KOLEOS podés conquistarlo todo.", 
+    thumbnail: [
+      {img: koleos_img1, desc: ''}, 
+      {img: koleos_img2, desc: 'Central multimedia de 7”'}, 
+      {img: koleos_img3, desc: 'Easy park assist'}, 
+      {img: koleos_img4, desc: 'Todas las expresiones de confort'}
+    ], 
+    header: koleosHeader, 
+    ficha: [koleosFT, "ficha_tec_koleos"],
+    },
+
+    {id: 'duster', 
+    title: "para la nueva temporada de tu vida", 
+    title2: 'RENAULT DUSTER', 
+    description: "El RENAULT DUSTER llegó para que seas el protagonista de todas tus aventuras. Un SUV diseñado para disfrutar de la vida off road, nuevas experiencias y recorrer todos los rincones de nuestro país de una forma atrevida, conectada y con personalidad.", 
+    thumbnail: [
+      {img: duster_img1, desc: ''}, 
+      {img: duster_img2, desc: 'Motor 1.3L TCe Turbo y caja CVT X-Tronic 8'}, 
+      {img: duster_img3, desc: 'Exterior e interior renovados'}, 
+      {img: duster_img4, desc: 'Nueva tecnología y conectividad'}
+    ], 
+    header: dusterHeader, 
+    ficha: [dusterFT, "ficha_tec_duster"],
+    },
+
+
 ]
 
 const ModeloContainer = () => {
