@@ -23,18 +23,10 @@ import Compass from '../../../images/fiat/compass.webp'
 import C3 from '../../../images/fiat/c3.webp'
 import C4 from '../../../images/fiat/C4.webp'
 
-
-
 const fiat = [{ name: 'argo', icon: Argo, id: 81, marca: 'fiat'}, {name: 'cronos', icon: Cronos, id: 82, marca: 'fiat'}, {name: 'ducato', icon: Ducato, id: 83, marca: 'fiat'}, {name: 'fiorino', icon: Fiorino, id: 84, marca: 'fiat'}, {name: 'mobi', icon: Mobi, id: 85, marca: 'fiat'}, {name: 'strada', icon: Strada, id: 86, marca: 'fiat'}, {name: 'toro', icon: Toro, id: 87, marca: 'fiat'}, {name: 'uno', icon: Uno, id: 88, marca: 'fiat'}];
 const volkswagen = [{name: 'taos', icon: Taos, id: 89, marca: 'volkswagen'}];
 const renault = [
-    {name: 'sandero', icon: Sandero, id: 90, marca: 'renault'},
-    {name: 'stepway', icon: Sandero, id: 90, marca: 'renault'},
-    {name: 'logan', icon: Sandero, id: 90, marca: 'renault'},
-    {name: 'kangoo', icon: Sandero, id: 90, marca: 'renault'},
-    {name: 'captur', icon: Sandero, id: 90, marca: 'renault'},
-    {name: 'koleos', icon: Sandero, id: 90, marca: 'renault'},
-    {name: 'duster', icon: Sandero, id: 90, marca: 'renault'}
+    {name: 'sandero', icon: Sandero, id: 90, marca: 'renault'}
 ];
 const jeep = [{name: 'renegade', icon: Renegade, id: 91, marca: 'jeep'}, {name: 'compass', icon: Compass, id: 93, marca: 'jeep'}];
 const citroen = [{name: 'c3', icon: C3, id: 99, marca: 'citroen'}, {name: 'c4-cactus', icon: C4, id: 98, marca: 'citroen'}];
