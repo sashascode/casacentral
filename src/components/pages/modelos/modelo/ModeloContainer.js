@@ -147,7 +147,7 @@ const modelos = [
   {id: 'c3', title: "Conquistando las calles con estilo y personalidad. #CitroenC3", title2: 'CITROEN C3', description: "El nuevo C3 unifica las características del hatchback con las de un SUV. Imponente con uno de los mayores despejes del suelo del segmento. Proporcionando bienestar a bordo, una posición de manejo inigualable y una excelente experiencia de conducción. El nuevo C3 te brinda lo mejor de los dos mundos. ", thumbnail: [{img: "https://s1.cdn.autoevolution.com/images/models/CITROEN_C3-Aircross-2021_main.jpg", desc: ''}, {img: "https://media.citroen.com.ar/image/80/4/audioyconectividad_1.357804.70.jpg?vers=1", desc: 'SISTEMA MULTIMEDIA DE 7"'}, {img: "https://media.citroen.com.ar/image/38/7/747x322-citroen-c3-gran-capacidad-1.30387.70.jpg", desc: 'GRAN CAPACIDAD, MODULARIDAD Y FÁCIL ACCESO'}, {img: "https://media.citroen.com.ar/image/80/5/audioyconectividad_2.357805.70.jpg?vers=1", desc: 'MIRRORSCREEN TAMBIEN MANEJABLE DESDE LOS MANDOS DEL VOLANTE'}], header: "https://www.sbwakefield.co.uk/media/images/51697992/50800515head-image.jpg", ficha: [c3FT, "ficha_tec_c3"],},
   {id: 'c4-cactus', title: "Bienvenido a la nueva generación SUV. #CitroenC4Cactus", title2: 'CITROEN C4 CACTUS', description: "El Nuevo CITROËN C4 CACTUS es una alternativa al segmento SUV que sienta las bases de un nuevo concepto de automóvil, ofreciendo más diseño, más confort y más tecnología.", thumbnail: [{img: "https://media.citroen.com.ar/image/12/2/diseno-provocador.350122.png?vers=1", desc: ''}, {img: "https://media.citroen.com.ar/image/90/5/espacio-interno.294905.70.png", desc: 'HABITABILIDAD Y VERSATILIDAD'}, {img: "https://media.citroen.com.ar/image/11/5/usp_techo-flotante-v2.350115.70.jpg?vers=1", desc: 'BARRAS DE TECHO FLOTANTES'}, {img: "https://media.citroen.com.ar/image/90/4/universo-interno.294904.70.png", desc: 'UNIVERSO INTERNO EXCLUSIVO Y TECNOLÓGICO'}], header: "https://tormo.com.ar/wp-content/uploads/2021/10/Citroe%CC%88n-C4-Cactus-X-SERIES-1-Tormo.jpeg", ficha: [c4FT, "ficha_tec_argo"],},
     {id: 'stepway', 
-    title: "Sea cual sea el camino que elijas, estás a la altura", 
+    title: "Sea cual sea el camino que elijas, estás a la altura. #RenaultStepway", 
     title2: 'RENAULT STEPWAY', 
     description: "Su gran despeje del suelo y sus nuevos faros C-Shape le otorgan una actitud intrépida que junto a las luces LED traseras, trazan una línea que resalta el movimiento. Un auto diseñado a la altura de lo que te propongas.", 
     thumbnail: [
@@ -161,7 +161,7 @@ const modelos = [
     },
 
     {id: 'logan', 
-    title: "Sentite cómodo con tu momento", 
+    title: "Sentite cómodo con tu momento. #RenaultLogan", 
     title2: 'RENAULT LOGAN', 
     description: "El diseño renovado, el gran espacio interior junto con un baúl suficientemente grande para todo lo que querés llevar, son algunas de las características que hacen al Renault LOGAN, el vehículo que te merecés.", 
     thumbnail: [
@@ -175,7 +175,7 @@ const modelos = [
     },
 
     {id: 'kangoo', 
-    title: "Recargado de proyectos", 
+    title: "Recargado de proyectos. #RenaultKangoo", 
     title2: 'RENAULT KANGOO', 
     description: "Nuevo Renault KANGOO, pensado para viajar acompañado y compartir todo tipo de aventuras. En familia o con amigos, al campo o a la playa, el Kangoo está diseñado para que cada travesía sea única, no sólo en fines de semana o vacaciones. Con amplio espacio, también es un vehículo ideal para moverse cómodamente por la ciudad. Para ir al trabajo, llevar los chicos al colegio, hacer las compras en el supermercado o para disfrutar de salidas divertidas. Todos serán bienvenidos, todos viajarán cómodos en el nuevo Renault KANGOO.", 
     thumbnail: [
@@ -189,7 +189,7 @@ const modelos = [
     },
 
     {id: 'captur', 
-    title: "qué bueno verme ahí", 
+    title: "Qué bueno verme ahí. #RenaultCaptur", 
     title2: 'RENAULT CAPTUR', 
     description: "Inspirado en el concept car del mismo nombre, Renault CAPTUR representa un nuevo lenguaje en términos de diseño: moderno y sofisticado.", 
     thumbnail: [
@@ -203,7 +203,7 @@ const modelos = [
     },
 
     {id: 'koleos', 
-    title: "conquistalo todo", 
+    title: "Conquistalo todo. #RenaultKoleos", 
     title2: 'NUEVA RENAULT KOLEOS', 
     description: "Un imponente estilo y una refinada elegancia se combinan para ampliar tus horizontes. La nueva Renault KOLEOS es una SUV que inspira respeto. Es amplia, robusta, con grandes llantas y gran distancia entre ejes. Sin importar la ruta o aventura que quieras emprender con la Renault KOLEOS podés conquistarlo todo.", 
     thumbnail: [
@@ -217,7 +217,7 @@ const modelos = [
     },
 
     {id: 'duster', 
-    title: "para la nueva temporada de tu vida", 
+    title: "Para la nueva temporada de tu vida. #RenaultDuster", 
     title2: 'RENAULT DUSTER', 
     description: "El RENAULT DUSTER llegó para que seas el protagonista de todas tus aventuras. Un SUV diseñado para disfrutar de la vida off road, nuevas experiencias y recorrer todos los rincones de nuestro país de una forma atrevida, conectada y con personalidad.", 
     thumbnail: [
