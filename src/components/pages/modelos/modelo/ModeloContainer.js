@@ -244,11 +244,26 @@ import cherokeeFT from '../../../../images/jeep/cherokee/cherokee.pdf'
 
 //********************** MARCA CITROEN ********************************** */
 
-
 //c3
 import c3FT from './fichastecnicas/Ficha-Tecnica-Citroen-C3.pdf'
 //c4
 import c4FT from './fichastecnicas/ficha-tecnica-nuevo-suv-c4-cactus.pdf'
+
+//imports c5
+import c5_img1 from '../../../../images/citroen/c5/c5_1.jpg'
+import c5_img2 from '../../../../images/citroen/c5/c5_2.webp'
+import c5_img3 from '../../../../images/citroen/c5/c5_3.jpg'
+import c5_img4 from '../../../../images/citroen/c5/c5_4.jpg'
+import c5Header from '../../../../images/citroen/c5/c5banner.webp'
+import c5FT from '../../../../images/citroen/c5/c5.pdf'
+
+//imports berlingo
+import berlingo_img1 from '../../../../images/citroen/berlingo/berlingo1.jpg'
+import berlingo_img2 from '../../../../images/citroen/berlingo/berlingo2.jpg'
+import berlingo_img3 from '../../../../images/citroen/berlingo/berlingo3.jpg'
+import berlingo_img4 from '../../../../images/citroen/berlingo/berlingo4.jpg'
+import berlingoHeader from '../../../../images/citroen/berlingo/berlingobanner.jpg'
+import berlingoFT from '../../../../images/citroen/berlingo/berlingo.pdf'
 
 
 const modelos = [
@@ -544,6 +559,34 @@ const modelos = [
     ], 
     header: cherokeeHeader, 
     ficha: [cherokeeFT, "ficha_tec_cherokee"],
+    },
+
+    {id: 'c5', 
+    title: "Para un placer de conducción de alto nivel", 
+    title2: 'CITROËN C5 AIRCROSS', 
+    description: "El SUV más modulable de su categoría", 
+    thumbnail: [
+      {img: c5_img1, desc: ''}, 
+      {img: c5_img2, desc: 'Motor naftero THP de alto rendimiento'}, 
+      {img: c5_img3, desc: 'Volumen de baúl "Best in class" de 580 L extendible hasta 720 L'}, 
+      {img: c5_img4, desc: '3 asientos traseros individuales corredizos, rebatibles y con respaldo regulable en inclinación'}
+    ], 
+    header: c5Header, 
+    ficha: [c5FT, "ficha_tec_c5"],
+    },
+
+    {id: 'berlingo', 
+    title: "Diseño y seguridad de alto vuelo", 
+    title2: 'CITROËN BERLINGO MULTISPACE', 
+    description: "El CITROËN BERLINGO MULTISPACE demuestra que la belleza, el buen gusto y un atractivo innato pueden combinarse en un vehículo multiuso de gran versatilidad.", 
+    thumbnail: [
+      {img: berlingo_img1, desc: ''}, 
+      {img: berlingo_img2, desc: 'Interior XTR'}, 
+      {img: berlingo_img3, desc: 'Acceso y baúl de referencia'}, 
+      {img: berlingo_img4, desc: 'Audio y conectividad'}
+    ], 
+    header: berlingoHeader, 
+    ficha: [berlingoFT, "ficha_tec_berlingo"],
     },
 ]
 
