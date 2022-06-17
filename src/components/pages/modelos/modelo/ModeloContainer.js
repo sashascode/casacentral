@@ -202,12 +202,49 @@ import duster_img4 from '../../../../images/renault/duster/duster4.webp'
 import dusterHeader from '../../../../images/renault/duster/duster_header.webp'
 import dusterFT from '../../../../images/renault/duster/duster.pdf'
 
-//********************** MARCA XXX ********************************** */
+//********************** MARCA JEEP ********************************** */
 
 //renegade
 import renegadeFT from './fichastecnicas/FICHA-RENEGADE.pdf'
 //compass
 import CompassFT from './fichastecnicas/Jeep_Compass_Ficha_Tecnica_Naftera_MY22.pdf'
+
+//imports wrangler
+import wrangler_img1 from '../../../../images/jeep/wrangler/wrangler1.jpg'
+import wrangler_img2 from '../../../../images/jeep/wrangler/wrangler2.jpg'
+import wrangler_img3 from '../../../../images/jeep/wrangler/wrangler3.jpg'
+import wrangler_img4 from '../../../../images/jeep/wrangler/wrangler4.jpg'
+import wranglerHeader from '../../../../images/jeep/wrangler/wranglerbanner.jpg'
+import wranglerFT from '../../../../images/jeep/wrangler/wrangler.pdf'
+
+//imports gladiator
+import gladiator_img1 from '../../../../images/jeep/gladiator/gladiator1.jpg'
+import gladiator_img2 from '../../../../images/jeep/gladiator/gladiator2.jpg'
+import gladiator_img3 from '../../../../images/jeep/gladiator/gladiator3.jpg'
+import gladiator_img4 from '../../../../images/jeep/gladiator/gladiator4.jpg'
+import gladiatorHeader from '../../../../images/jeep/gladiator/gladiatorbanner.jpg'
+import gladiatorFT from '../../../../images/jeep/gladiator/gladiator.pdf'
+
+//imports commander
+import commander_img1 from '../../../../images/jeep/commander/commander1.jpg'
+import commander_img2 from '../../../../images/jeep/commander/commander2.jpg'
+import commander_img3 from '../../../../images/jeep/commander/commander3.jpg'
+import commander_img4 from '../../../../images/jeep/commander/commander4.jpg'
+import commanderHeader from '../../../../images/jeep/commander/commanderbanner.jpg'
+import commanderFT from '../../../../images/jeep/commander/commander.pdf'
+
+//imports cherokee
+import cherokee_img1 from '../../../../images/jeep/cherokee/cherokee1.jpg'
+import cherokee_img2 from '../../../../images/jeep/cherokee/cherokee2.jpg'
+import cherokee_img3 from '../../../../images/jeep/cherokee/cherokee3.jpg'
+import cherokee_img4 from '../../../../images/jeep/cherokee/cherokee4.jpg'
+import cherokeeHeader from '../../../../images/jeep/cherokee/cherokeebanner.jpg'
+import cherokeeFT from '../../../../images/jeep/cherokee/cherokee.pdf'
+
+
+//********************** MARCA CITROEN ********************************** */
+
+
 //c3
 import c3FT from './fichastecnicas/Ficha-Tecnica-Citroen-C3.pdf'
 //c4
@@ -451,6 +488,62 @@ const modelos = [
     ], 
     header: amarokHeader, 
     ficha: [amarokFT, "ficha_tec_amarok"],
+    },
+
+    {id: 'wrangler', 
+    title: "La pickup más potente del segmento", 
+    title2: 'JEEP WRANGLER', 
+    description: "El Wrangler ofrece desempeño con elegancia lo que lo hace divertido de manejar", 
+    thumbnail: [
+      {img: wrangler_img1, desc: ''}, 
+      {img: wrangler_img2, desc: 'Seguridad 4x4'}, 
+      {img: wrangler_img3, desc: 'Pantalla Multimedia'}, 
+      {img: wrangler_img4, desc: 'Sistema de tracción'}
+    ], 
+    header: wranglerHeader, 
+    ficha: [wranglerFT, "ficha_tec_wrangler"],
+    },
+
+    {id: 'gladiator', 
+    title: "Listo para llevarte a los lugares más desafiantes.", 
+    title2: 'JEEP GLADIATOR', 
+    description: "Jamás existió un vehículo como el Nuevo Jeep® Gladiator, diseñado desde todos sus ángulos para ser un completo todoterreno", 
+    thumbnail: [
+      {img: gladiator_img1, desc: ''}, 
+      {img: gladiator_img2, desc: 'Controlá todo con el comando de voz con el sistema Uconnect'}, 
+      {img: gladiator_img3, desc: 'Sistema de navegación Uconnect® 4C NAV con pantalla táctil'}, 
+      {img: gladiator_img4, desc: 'Monitoreo de presión de neumáticos'}
+    ], 
+    header: gladiatorHeader, 
+    ficha: [gladiatorFT, "ficha_tec_gladiator"],
+    },
+
+    {id: 'commander', 
+    title: "Una nueva dimensión para tu aventura", 
+    title2: 'JEEP COMMANDER', 
+    description: "Naturalmente sofisticado, el nuevo Jeep® Commander te invita a descubrir nuevas aventuras", 
+    thumbnail: [
+      {img: commander_img1, desc: ''}, 
+      {img: commander_img2, desc: 'Llantas de aleación 18”'}, 
+      {img: commander_img3, desc: 'Herramientas de asistencia a la conducción ADAS+'}, 
+      {img: commander_img4, desc: '7 Airbags'}
+    ], 
+    header: commanderHeader, 
+    ficha: [commanderFT, "ficha_tec_commander"],
+    },
+
+    {id: 'cherokee', 
+    title: "Domina casi cualquier superficie, dentro y fuera del camino", 
+    title2: 'JEEP CHEROKEE', 
+    description: "Es fácil reconocer de qué estamos hechos", 
+    thumbnail: [
+      {img: cherokee_img1, desc: ''}, 
+      {img: cherokee_img2, desc: '5 modos de conducción diferentes'}, 
+      {img: cherokee_img3, desc: 'Espacio amplio y encantador'}, 
+      {img: cherokee_img4, desc: 'Kit de seguridad'}
+    ], 
+    header: cherokeeHeader, 
+    ficha: [cherokeeFT, "ficha_tec_cherokee"],
     },
 ]
 
