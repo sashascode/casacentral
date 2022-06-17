@@ -59,6 +59,9 @@ import uno_img3 from '../../../../images/fiat/uno3.png'
 import uno_img4 from '../../../../images/fiat/uno4.png'
 import unoHeader from '../../../../images/fiat/unobanner.jpg'
 import unoFT from './fichastecnicas/ficha-tecnica-fiat-uno-way-2018pdf.pdf'
+
+//********************** MARCA WOLKSWAGEN ********************************** */
+
 //imports taos
 import taos_img1 from '../../../../images/fiat/taos1.jpg'
 import taos_img2 from '../../../../images/fiat/taos2.webp'
@@ -66,6 +69,86 @@ import taos_img3 from '../../../../images/fiat/taos3.jpg'
 import taos_img4 from '../../../../images/fiat/taos4.jpg'
 import taosHeader from '../../../../images/fiat/taosbanner.jpg'
 import taosFT from './fichastecnicas/ficha-tecnica-vw-taospdf.pdf'
+
+//imports nivus
+import nivus_img1 from '../../../../images/volkswagen/nivus/nivus1.webp'
+import nivus_img2 from '../../../../images/volkswagen/nivus/nivus2.webp'
+import nivus_img3 from '../../../../images/volkswagen/nivus/nivus3.webp'
+import nivus_img4 from '../../../../images/volkswagen/nivus/nivus4.webp'
+import nivusHeader from '../../../../images/volkswagen/nivus/nivusbanner.webp'
+import nivusFT from '../../../../images/volkswagen/nivus/nivus.pdf'
+
+//imports gol
+import gol_img1 from '../../../../images/volkswagen/gol/gol1.webp'
+import gol_img2 from '../../../../images/volkswagen/gol/gol2.webp'
+import gol_img3 from '../../../../images/volkswagen/gol/gol3.webp'
+import gol_img4 from '../../../../images/volkswagen/gol/gol4.webp'
+import golHeader from '../../../../images/volkswagen/gol/golbanner.webp'
+import golFT from '../../../../images/volkswagen/gol/gol.pdf'
+
+//imports polo
+import polo_img1 from '../../../../images/volkswagen/polo/polo1.webp'
+import polo_img2 from '../../../../images/volkswagen/polo/polo2.webp'
+import polo_img3 from '../../../../images/volkswagen/polo/polo3.webp'
+import polo_img4 from '../../../../images/volkswagen/polo/polo4.webp'
+import poloHeader from '../../../../images/volkswagen/polo/polobanner.webp'
+import poloFT from '../../../../images/volkswagen/polo/polo.pdf'
+
+//imports virtus
+import virtus_img1 from '../../../../images/volkswagen/virtus/virtus1.webp'
+import virtus_img2 from '../../../../images/volkswagen/virtus/virtus2.webp'
+import virtus_img3 from '../../../../images/volkswagen/virtus/virtus3.webp'
+import virtus_img4 from '../../../../images/volkswagen/virtus/virtus4.webp'
+import virtusHeader from '../../../../images/volkswagen/virtus/virtusbanner.webp'
+import virtusFT from '../../../../images/volkswagen/virtus/virtus.pdf'
+
+//imports t-cross
+import tcross_img1 from '../../../../images/volkswagen/tcross/tcross1.webp'
+import tcross_img2 from '../../../../images/volkswagen/tcross/tcross2.webp'
+import tcross_img3 from '../../../../images/volkswagen/tcross/tcross3.webp'
+import tcross_img4 from '../../../../images/volkswagen/tcross/tcross4.webp'
+import tcrossHeader from '../../../../images/volkswagen/tcross/tcrossbanner.webp'
+import tcrossFT from '../../../../images/volkswagen/tcross/tcross.pdf'
+
+//imports vento
+import vento_img1 from '../../../../images/volkswagen/vento/vento1.jpg'
+import vento_img2 from '../../../../images/volkswagen/vento/vento2.webp'
+import vento_img3 from '../../../../images/volkswagen/vento/vento3.webp'
+import vento_img4 from '../../../../images/volkswagen/vento/vento4.webp'
+import ventoHeader from '../../../../images/volkswagen/vento/ventobanner.webp'
+import ventoFT from '../../../../images/volkswagen/vento/vento.pdf'
+
+//imports tiguan
+import tiguan_img1 from '../../../../images/volkswagen/tiguan/tiguan1.webp'
+import tiguan_img2 from '../../../../images/volkswagen/tiguan/tiguan2.webp'
+import tiguan_img3 from '../../../../images/volkswagen/tiguan/tiguan3.webp'
+import tiguan_img4 from '../../../../images/volkswagen/tiguan/tiguan4.webp'
+import tiguanHeader from '../../../../images/volkswagen/tiguan/tiguanbanner.webp'
+import tiguanFT from '../../../../images/volkswagen/tiguan/tiguan.pdf'
+
+//imports touareg
+import touareg_img1 from '../../../../images/volkswagen/touareg/touareg1.webp'
+import touareg_img2 from '../../../../images/volkswagen/touareg/touareg2.webp'
+import touareg_img3 from '../../../../images/volkswagen/touareg/touareg3.webp'
+import touareg_img4 from '../../../../images/volkswagen/touareg/touareg4.webp'
+import touaregHeader from '../../../../images/volkswagen/touareg/touaregbanner.webp'
+import touaregFT from '../../../../images/volkswagen/touareg/touareg.pdf'
+
+//imports saveiro
+import saveiro_img1 from '../../../../images/volkswagen/saveiro/saveiro1.webp'
+import saveiro_img2 from '../../../../images/volkswagen/saveiro/saveiro2.webp'
+import saveiro_img3 from '../../../../images/volkswagen/saveiro/saveiro3.webp'
+import saveiro_img4 from '../../../../images/volkswagen/saveiro/saveiro4.webp'
+import saveiroHeader from '../../../../images/volkswagen/saveiro/saveirobanner.webp'
+import saveiroFT from '../../../../images/volkswagen/saveiro/saveiro.pdf'
+
+//imports saveiro
+import amarok_img1 from '../../../../images/volkswagen/amarok/amarok1.webp'
+import amarok_img2 from '../../../../images/volkswagen/amarok/amarok2.webp'
+import amarok_img3 from '../../../../images/volkswagen/amarok/amarok3.webp'
+import amarok_img4 from '../../../../images/volkswagen/amarok/amarok4.webp'
+import amarokHeader from '../../../../images/volkswagen/amarok/amarokbanner.webp'
+import amarokFT from '../../../../images/volkswagen/amarok/amarok.pdf'
 
 //********************** MARCA RENAULT ********************************** */
 
@@ -230,7 +313,145 @@ const modelos = [
     ficha: [dusterFT, "ficha_tec_duster"],
     },
 
+    {id: 'nivus', 
+    title: "Diseño moderno e innovador", 
+    title2: 'WOLKSWAGEN NIVUS', 
+    description: "El integrante de la familia Volkswagen que reúne la mezcla exacta entre modernidad, potencia y tecnología. Y cada vez estás más cerca de tenerlo. VW Nivus viene con Motor TSI, VW Play y el diseño más innovador.", 
+    thumbnail: [
+      {img: nivus_img1, desc: ''}, 
+      {img: nivus_img2, desc: 'Airbags y control de estabilidad'}, 
+      {img: nivus_img3, desc: 'Tapizado de cuero ecológico, el climatizador automático y difusores de aire traseros '}, 
+      {img: nivus_img4, desc: 'Eficiencia y potencia, todo en el motor 200 TSI'}
+    ], 
+    header: nivusHeader, 
+    ficha: [nivusFT, "ficha_tec_nivus"],
+    },
 
+    {id: 'gol', 
+    title: "Un clásico que se convierte en leyenda", 
+    title2: 'WOLKSWAGEN GOL', 
+    description: "Todos conocemos a alguien que tiene o tuvo un Gol, es imposible no reconocerlo en la calle y es el protagonista de infinitas historias. Despedimos al Gol, le damos la bienvenida a la leyenda.", 
+    thumbnail: [
+      {img: gol_img1, desc: ''}, 
+      {img: gol_img2, desc: 'Una mirada única. Frente más robusto y firme'}, 
+      {img: gol_img3, desc: 'Caja automática Tiptronic de 6 velocidades'}, 
+      {img: gol_img4, desc: 'Soporte para el teléfono celular con puerto USB de carga'}
+    ], 
+    header: golHeader, 
+    ficha: [golFT, "ficha_tec_gol"],
+    },
+
+    {id: 'polo', 
+    title: "Vas a querer llamarlo tu nuevo auto", 
+    title2: 'WOLKSWAGEN POLO', 
+    description: "El Nuevo Polo GTS viene con diversos equipamientos de seguridad y confort que no sólo van a impresionarte, te van a dar ganas de no bajarte nunca.", 
+    thumbnail: [
+      {img: polo_img1, desc: ''}, 
+      {img: polo_img2, desc: 'Máxima protección con airbags'}, 
+      {img: polo_img3, desc: 'Active Info Display'}, 
+      {img: polo_img4, desc: 'Transmisión automática de 6 velocidades'}
+    ], 
+    header: poloHeader, 
+    ficha: [poloFT, "ficha_tec_polo"],
+    },
+
+    {id: 'virtus', 
+    title: "La potencia que buscás, con la comodidad que necesitás", 
+    title2: 'WOLKSWAGEN VIRTUS', 
+    description: "El Nuevo Virtus GTS se convierte en una nueva referencia en deportividad marcando diferencia con su gran espacio interno.", 
+    thumbnail: [
+      {img: virtus_img1, desc: ''}, 
+      {img: virtus_img2, desc: 'Active Info Display'}, 
+      {img: virtus_img3, desc: 'Manual Cognitivo'}, 
+      {img: virtus_img4, desc: 'Airbags frontales y laterales'}
+    ], 
+    header: virtusHeader, 
+    ficha: [virtusFT, "ficha_tec_virtus"],
+    },
+
+    {id: 'tcross', 
+    title: "Nuevo motor, nuevas historias", 
+    title2: 'WOLKSWAGEN T-CROSS', 
+    description: "El nuevo T-Cross TSI fue creado para brindarte toda la potencia, conectividad, versatilidad y seguridad", 
+    thumbnail: [
+      {img: tcross_img1, desc: ''}, 
+      {img: tcross_img2, desc: 'Asientos de cuero'}, 
+      {img: tcross_img3, desc: 'Airbags. Protección en todo momento.'}, 
+      {img: tcross_img4, desc: 'Tablero digital'}
+    ], 
+    header: tcrossHeader, 
+    ficha: [tcrossFT, "ficha_tec_tcross"],
+    },
+
+    {id: 'vento', 
+    title: "Tecnología que te moviliza", 
+    title2: 'WOLKSWAGEN VENTO', 
+    description: "Con Vento, el presente es digital", 
+    thumbnail: [
+      {img: vento_img1, desc: ''}, 
+      {img: vento_img2, desc: 'Tecnología para todos tus viajes'}, 
+      {img: vento_img3, desc: 'Llantas de doble tono'}, 
+      {img: vento_img4, desc: 'Faros y luces LED'}
+    ], 
+    header: ventoHeader, 
+    ficha: [ventoFT, "ficha_tec_vento"],
+    },
+
+    {id: 'tiguan', 
+    title: "Donde lo grande sucede", 
+    title2: 'WOLKSWAGEN TIGUAN', 
+    description: "Además de estilo y tecnología, el Tiguan Allspace le hace honor a su nombre ofreciéndote más espacio para tus aventuras.", 
+    thumbnail: [
+      {img: tiguan_img1, desc: ''}, 
+      {img: tiguan_img2, desc: 'Techo corredizo y deflector panorámico de 1.364 mm de longitud equipado con molduras LED'}, 
+      {img: tiguan_img3, desc: 'Sistema de tracción: 4Motion'}, 
+      {img: tiguan_img4, desc: 'Pantalla retráctil transparente delante del parabrisas: Head Up Display'}
+    ], 
+    header: tiguanHeader, 
+    ficha: [tiguanFT, "ficha_tec_tiguan"],
+    },
+
+    {id: 'touareg', 
+    title: "Liderá tu propio camino. Llegá a tu destino disfrutando el camino", 
+    title2: 'WOLKSWAGEN TOUAREG', 
+    description: "Cuando se trata de manejar tu Nuevo Touareg no hay tiempo que perder.", 
+    thumbnail: [
+      {img: touareg_img1, desc: ''}, 
+      {img: touareg_img2, desc: 'Interior diseñado especialmente para que disfrutes el espacio amplio'}, 
+      {img: touareg_img3, desc: 'Sistema de desbloqueo: Keyless Access'}, 
+      {img: touareg_img4, desc: 'Llantas de 19” Esperance'}
+    ], 
+    header: touaregHeader, 
+    ficha: [touaregFT, "ficha_tec_touareg"],
+    },
+
+    {id: 'saveiro', 
+    title: "Somos lo que hacemos", 
+    title2: 'WOLKSWAGEN SAVEIRO', 
+    description: "Encontrá en Saveiro un vehículo de trabajo y aventurero gracias a su potencia", 
+    thumbnail: [
+      {img: saveiro_img1, desc: ''}, 
+      {img: saveiro_img2, desc: 'El equipamiento más destacado de su segmento'}, 
+      {img: saveiro_img3, desc: 'Versátil y atractivo por fuera, cómodo y espacioso por dentro'}, 
+      {img: saveiro_img4, desc: 'App Connect es un sistema que combina MirrorLink, CarPlay y Google AndroidAuto'}
+    ], 
+    header: saveiroHeader, 
+    ficha: [saveiroFT, "ficha_tec_saveiro"],
+    },
+
+    {id: 'amarok', 
+    title: "La pickup más potente del segmento", 
+    title2: 'WOLKSWAGEN AMAROK', 
+    description: "La nueva Amarok V6 con 258 caballos de potencia para seguir creando historia dentro de la industria automotriz.", 
+    thumbnail: [
+      {img: amarok_img1, desc: ''}, 
+      {img: amarok_img2, desc: 'El motor que necesitás'}, 
+      {img: amarok_img3, desc: 'Volante multifuncion'}, 
+      {img: amarok_img4, desc: 'ABS Off-road'}
+    ], 
+    header: amarokHeader, 
+    ficha: [amarokFT, "ficha_tec_amarok"],
+    },
 ]
 
 const ModeloContainer = () => {
